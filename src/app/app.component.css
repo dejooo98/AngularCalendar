@@ -1,0 +1,40 @@
+.calendar-container {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  background: #057ffa;
+  border-radius: 10px;
+}
+.calendar-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+span {
+  color: #fff;
+  font-size: 20px;
+}
+.weekdays {
+  border-bottom: 1px solid white;
+}
+.calendar {
+  width: auto;
+  font-size: 20px;
+}
+.day {
+  width: 30px;
+  display: inline-block;
+  padding: 6px;
+}
+.day:hover {
+  background-color: #0a3764;
+  cursor: pointer;
+  border-radius: 10px;
+}
